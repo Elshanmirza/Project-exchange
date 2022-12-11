@@ -65,6 +65,7 @@ button {
     border: none;
     border-radius: 5px;
     margin: 9px 102px 8px 109px;
+    cursor: pointer;
 }
 
 .main {
@@ -138,6 +139,12 @@ h1 {
     cursor: pointer;
 }
 
+.side ul li.blueviolet {
+    background-color: blueviolet;
+    border: blueviolet;
+    color: white;
+}
+
 .side input {
     width: 257px;
     border: 1px solid #E5E5E5;
@@ -157,7 +164,7 @@ h1 {
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
-    width: 119px;
+    width: 140px;
     height: 28px;
     color: #C6C6C6;
     position: absolute;
@@ -165,3 +172,4 @@ h1 {
     bottom: 5px;
 
 }
+
